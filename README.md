@@ -17,13 +17,20 @@ checked out the very nice [RestEase](https://github.com/canton7/RestEase) projec
 
 * reflection-based API
 * supports method parameters in:
-** body (multipart and form-encoded are also supported)
-** query parameters
-** path placeholders
-** headers
+  * body (multipart and form-encoded are also supported)
+  * query parameters
+  * path placeholders
+  * headers
 * default parameter support
 * Synchronous and asynchronous (Task-based) return values
 * path concatenation: base path can be provided in `HttpClient`, subpath in the interface header, and additional path at the method
 * CancellationToken support
 * Stream support (can be used to upload/download files, even multipart)
 * customizable error handling
+
+## Compatibility
+
+Currently the library works with .NET Framework 4.7 and above. I have plans to convert
+it to .NET Standard, but it requires some effort as the `RealProxy` dynamic proxy class
+is not available there, that one has a `DispatchProxy` class instead with 
+slightly different schematics.
