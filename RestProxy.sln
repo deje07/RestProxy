@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestProxy", "RestProxy\RestProxy.csproj", "{9FCDE3B8-28B2-4302-9A63-4A575C63FBAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{F2E6052F-F235-4F57-AC3A-B92EFA240BA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{474C5996-9E38-4B46-9EF5-BC22A1E9DB36}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FCDE3B8-28B2-4302-9A63-4A575C63FBAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FCDE3B8-28B2-4302-9A63-4A575C63FBAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FCDE3B8-28B2-4302-9A63-4A575C63FBAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FCDE3B8-28B2-4302-9A63-4A575C63FBAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2E6052F-F235-4F57-AC3A-B92EFA240BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E6052F-F235-4F57-AC3A-B92EFA240BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E6052F-F235-4F57-AC3A-B92EFA240BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E6052F-F235-4F57-AC3A-B92EFA240BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60DE32E5-CDFA-4730-AB47-4A2F2C29BE73}
+	EndGlobalSection
+EndGlobal
